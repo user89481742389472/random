@@ -18,7 +18,7 @@ html, body {
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* Desktop with icons */
+/* Desktop */
 #desktop {
   position: fixed; inset: 0 0 56px 0;
   background: radial-gradient(1200px 800px at 20% 0%, #111624 0%, #0e1116 55%, #0c0f13 100%);
@@ -44,7 +44,7 @@ html, body {
 .glyph.photos   { background: #ff74b2; }
 .desktop-icon .label { padding:4px 6px; border-radius:8px; text-align:center; }
 
-/* Taskbar (Dock vibe) */
+/* Taskbar / Dock */
 #taskbar {
   position: fixed; left:0; right:0; bottom:0; height:56px;
   background: linear-gradient(to top, #0a0d12 0%, #12161d 100%);
@@ -124,7 +124,4 @@ html, body {
 .win-controls { display:flex; gap:6px; }
 .btn {
   height:26px; min-width:26px; padding:0 10px; border-radius:8px; border:1px solid var(--border);
-  background:#1c212a; color:var(--text); cursor:pointer; display:grid; place-items:center; font-size:12px;
-  transition: transform 120ms var(--ease), background 120ms var(--ease), border-color 120ms var(--ease);
-}
-.btn:hover { background:#202632;
+  background:#1c212a; color:var(--text); cursor:pointer;
